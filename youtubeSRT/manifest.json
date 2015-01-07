@@ -1,0 +1,22 @@
+{ 
+"manifest_version": 2, 
+"name": "YoutubeSRT", 
+"version": "1.0", 
+"description": "Download auto subtitles of youtube", 
+"browser_action": { 
+"default_icon": "srt.gif" 
+}, 
+"permissions": [ 
+"https://*/", 
+"bookmarks", 
+"tabs", 
+"history" 
+] , 
+"content_scripts": [ 
+{ 
+"matches": ["https://www.youtube.com/*"], 
+"css": ["youtubesrt.css"], 
+"js": ["jquery-1.11.2.min.js","youtubesrt.js"] 
+} 
+] 
+}
