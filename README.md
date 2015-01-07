@@ -3,6 +3,6 @@ download auto-subtitle of youtube
 
 
 usage: Add the *.crx file to the chrome extension. <br/>
-when you are watching youtube videos, a green button will shown below the video.
-Just click it.
-Enjoy!
+when watching youtube videos, a green button will shown below the video.<br/>
+Just click it.<br/>
+Enjoy!<br/>
